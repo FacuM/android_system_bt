@@ -660,7 +660,7 @@ void bdt_enable(void)
         printf("Bluetooth is already enabled\n");
         return;
     }
-    status = sBtInterface->enable(false);
+    status = sBtInterface->enable();
     return;
 }
 
